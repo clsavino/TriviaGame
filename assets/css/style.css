@@ -1,0 +1,37 @@
+body{
+  background: pink;
+}
+/* wraps entire display for stopwatch*/
+#wrapper{
+  width: 800px;
+  margin: 50px auto 0;
+  height: 800px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+#wrapper {
+	font-size: 40px;
+	line-height: 60px;
+	color: green;
+	text-align: center;
+	font-weight: bolder;
+}
+/* form section */
+#formDisplay h1{
+	background-color: yellow;
+	color: green;
+	text-align: center;
+
+}
+button {
+	text-align: center;
+	height: 100px;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	margin: 100px auto;
+	color: pink;
+	font-size: 30px;
+	line-height: 45px;
+	font-weight: bolder;
+}
