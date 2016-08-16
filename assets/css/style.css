@@ -1,37 +1,41 @@
 body{
-  background: pink;
+  background: url('../../assets/images/marvel.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
 }
-/* wraps entire display for stopwatch*/
-#wrapper{
-  width: 800px;
-  margin: 50px auto 0;
-  height: 800px;
-  border: 2px solid green;
-  border-radius: 5px;
-}
+/* wraps entire display */
+
 #wrapper {
-	font-size: 40px;
-	line-height: 60px;
-	color: green;
+	width: 700px;
+	margin: 50px auto 0;
+	height: 800px;
+	border: 2px solid green;
+	border-radius: 5px;
+	font-size: 30px;
+	line-height: 40px;
+	color: red;
 	text-align: center;
 	font-weight: bolder;
+	background-color: white;
 }
 /* form section */
-#formDisplay h1{
-	background-color: yellow;
-	color: green;
+#formDisplay h1 {
+	background-color: white;
+	color: red;
 	text-align: center;
+	opacity: 0;
 
 }
 button {
 	text-align: center;
 	height: 100px;
 	width: 300px;
-	background-color: white;
+	background-color: red;
 	padding: 20px;
 	margin: 100px auto;
-	color: pink;
+	color: white;
 	font-size: 30px;
-	line-height: 45px;
+	line-height: 40px;
 	font-weight: bolder;
 }
