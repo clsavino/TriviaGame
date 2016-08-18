@@ -1,41 +1,58 @@
 body{
-  background: url('../../assets/images/marvel.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('../../assets/images/marvelcomics.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
   opacity: 1;
 }
-/* wraps entire display */
 
+/* wraps entire display */
 #wrapper {
 	width: 700px;
-	margin: 50px auto 0;
-	height: 800px;
-	border: 2px solid green;
+	margin: 20px auto 0;
+	min-height: 500px;
+	border: 5px solid red;
 	border-radius: 5px;
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 25px;
 	color: red;
 	text-align: center;
 	font-weight: bolder;
 	background-color: white;
 }
-/* form section */
-#formDisplay h1 {
-	background-color: white;
+#wrapper h1 {
+	font-size: 40px;
+	line-height: 50px;
 	color: red;
 	text-align: center;
-	opacity: 0;
-
+	font-weight: bolder;
+	margin: 20px;
+	padding: 20px;
 }
+/*
+.show {
+	font-size: 20px;
+	line-height: 25px;
+	color: red;
+	text-align: center;
+	font-weight: bolder;
+}
+*/
+
+.hide {
+	display: none;
+}
+
 button {
 	text-align: center;
 	height: 100px;
 	width: 300px;
 	background-color: red;
 	padding: 20px;
-	margin: 100px auto;
+	margin: 50px auto;
 	color: white;
 	font-size: 30px;
 	line-height: 40px;
+	border: 2px solid red;
+	border-radius: 5px;
 	font-weight: bolder;
 }

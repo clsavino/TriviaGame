@@ -10,11 +10,45 @@
 <body>
 	
     <div id="wrapper">
-    	<h1>Totally Trivial Trivia</h1>
-        <div id="formDisplay">
+    	<h1>Marvel Trivia</h1>
+
+    	<button class='gameBtn'>Start</button>
+
+        <div id="infoDisplay">
         </div>
-        <button class='gameBtn'>Start</button>
-    </div>
+
+        <div class="formDisplay">
+		<form class="hide">
+
+			<P>What was the first Marvel live-action movie?</P>
+			<input type="radio" name="film" value="spiderman">Spider Man
+			<input type="radio" name="film" value="xmen"> X-Men
+			<input type="radio" name="film" value="howard"> Howard the Duck<br>
+
+			<p>Who is the blue shapeshifter in X-Men?</p>
+			<input type="radio" name="shapeshifter" value="raven"> Raven
+			<input type="radio" name="shapeshifter" value="mystique"> Mystique
+			<input type="radio" name="shapeshifter" value="beast"> Beast <br>
+
+			<p>What new superhero did we meet in Captain America: - Civil War?</p>
+			<input type="radio" name="newName" value="deadpool"> Deadpool
+			<input type="radio" name="newName" value="ms"> Ms Marvel
+			<input type="radio" name="newName" value="panther"> Black Panther <br>
+
+			<P>What planet is Thor from?</P>
+			<input type="radio" name="planet" value="krypton"> Krypton
+			<input type="radio" name="planet" value="ultron"> Ultron
+			<input type="radio" name="planet" value="asgard"> Asgard <br>
+
+			<P>Who is Loki's father?</P>
+			<input type="radio" name="father" value="odin">Odin, Asgard King
+			<input type="radio" name="father" value="laufey"> Laufey, Frost Giant 
+			<input type="radio" name="father" value="malekith"> Malekith, Dark Elf<br><br>
+
+		</form>
+		</div> <!-- end of formDisplay -->
+	</div> <!--end of wrapper-->	
+
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
