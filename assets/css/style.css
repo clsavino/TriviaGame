@@ -1,15 +1,13 @@
 body{
   background: url('../../assets/images/marvelcomics.jpg');
-  /*background-repeat: no-repeat;*/
-  background-size: contain;
+  background-size: cover;
   opacity: 1;
+  font-family: "Times New Roman";
 }
 
-/* wraps entire display */
 #wrapper {
-	width: 700px;
+	max-width: 620px;
 	margin: 20px auto 0;
-	min-height: 500px;
 	border: 5px solid red;
 	border-radius: 5px;
 	font-size: 20px;
@@ -19,24 +17,35 @@ body{
 	font-weight: bolder;
 	background-color: white;
 }
+
 #wrapper h1 {
 	font-size: 40px;
 	line-height: 50px;
 	color: red;
 	text-align: center;
 	font-weight: bolder;
-	margin: 20px;
+	margin: 20px 20px 10px 20px;
 	padding: 20px;
 }
-/*
-.show {
-	font-size: 20px;
-	line-height: 25px;
-	color: red;
-	text-align: center;
+
+#wrapper p {
+	font-size: 22px;
 	font-weight: bolder;
+	line-height: 25px;
+	margin: 10px;
 }
-*/
+
+ #wrapper input {
+ 	font-size: 18px;
+	/*font-weight: bold;*/
+	line-height: 25px;
+	margin: 5px;
+ }
+
+#infoDisplay p {
+	font-size: 25px;
+	margin: 10px 10px 30px 10px;
+}
 
 .hide {
 	display: none;
@@ -45,10 +54,10 @@ body{
 button {
 	text-align: center;
 	height: 100px;
-	width: 300px;
+	width: 200px;
 	background-color: red;
 	padding: 20px;
-	margin: 50px auto;
+	margin: 0 10px 20px 10px;
 	color: white;
 	font-size: 30px;
 	line-height: 40px;
