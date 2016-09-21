@@ -7,7 +7,7 @@ var incorrect = 0;
 var unanswered = 0;
 var myForm = '';
 var answers = ['howard', 'mystique', 'panther', 'asgard', 'natalia', 'bucky', 'gwen', 'laufey', 'magneto'];
-console.log('answers array ', answers);
+//console.log('answers array ', answers);
 var answerChecked;
 var allRadios;
 var numQuestions = 9;
